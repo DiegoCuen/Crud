@@ -1,3 +1,9 @@
-package com.example.crud
+// Archivo: app/src/main/java/com/example/crud/modelos/Mascota.kt
 
-data class Mascota()
+package com.example.crud.modelos
+
+data class Mascota(
+    var nombre: String,
+    var edad: Int,
+    var id: Long = 0
+)

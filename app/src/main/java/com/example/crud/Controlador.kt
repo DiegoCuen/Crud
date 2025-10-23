@@ -12,6 +12,7 @@ import com.example.crud.AyudanteBaseDeDatos.Companion.NOMBRE_TABLA_MASCOTAS
 
 // 2. IMPORTACIÓN DE TU CLASE JAVA
 import com.example.crud.R
+import com.example.crud.modelos.Mascota
 
 // El nombre de la clase puede ser el que quieras. "Controlador" es una buena opción.
 class Controlador(contexto: Context) {
@@ -19,7 +20,6 @@ class Controlador(contexto: Context) {
 
     fun eliminarMascota(mascota: Mascota): Int {
         val baseDeDatos: SQLiteDatabase = ayudanteBaseDeDatos.writableDatabase
-        // Usa el método get() de Java para acceder a la propiedad
         val argumentos = arrayOf(mascota.id.toString())
         return baseDeDatos.delete(NOMBRE_TABLA_MASCOTAS, "$COLUMNA_ID = ?", argumentos)
     }
