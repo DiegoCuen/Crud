@@ -3758,6 +3758,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnEditar
+id btnEliminar
+id btnGuardar
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3841,6 +3844,8 @@ id enterAlways
 id enterAlwaysCollapsed
 id entireSpace
 id escape
+id etEdad
+id etNombre
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3905,7 +3910,6 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -4037,6 +4041,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvMascotas
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -4151,6 +4156,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvEdad
+id tvNombre
 id unchecked
 id uniform
 id unlabeled
@@ -4312,6 +4319,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_mascota
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

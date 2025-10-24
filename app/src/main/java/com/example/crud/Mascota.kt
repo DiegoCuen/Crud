@@ -1,9 +1,9 @@
-// Archivo: app/src/main/java/com/example/crud/modelos/Mascota.kt
-
 package com.example.crud.modelos
 
+// Una "data class" es perfecta para guardar datos.
+// No necesita id aquí, lo manejaremos en la base de datos y al leer.
 data class Mascota(
-    var nombre: String,
-    var edad: Int,
-    var id: Long = 0
+    val id: Int,
+    val nombre: String,
+    val edad: Int
 )

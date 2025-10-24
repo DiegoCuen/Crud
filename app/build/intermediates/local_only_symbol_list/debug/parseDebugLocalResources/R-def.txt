@@ -4,8 +4,16 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id main
+id btnEditar
+id btnEliminar
+id btnGuardar
+id etEdad
+id etNombre
+id rvMascotas
+id tvEdad
+id tvNombre
 layout activity_main
+layout item_mascota
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
